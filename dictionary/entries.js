@@ -1,9 +1,6 @@
 fetch("../words.json")
 .then(data => data.json())
 .then(json => {
-
-  // console.log(json.words);
-
   var sorted = json.words.sort((a,b) =>  a.numVal[0] - b.numVal[0]); // sort by first letter
   for (var i = 0; i < 35; i++){ // repeat for every first letter
     var table = document.getElementById(String(i));
@@ -15,34 +12,34 @@ fetch("../words.json")
       }
     });
 
-    // section = section.sort((a,b) => a.numVal[1] - b.numVal[1]); // sort section by second letter
-    var wordList = [];
-    section.forEach(entry => {
-      wordList.push(entry.numVal); // get only the arrays of numerical values
-      console.log(wordList);
-    });
-    var longest = wordList.reduce((a, b) => a.length > b.length ? a : b); // find the longest word
-    var collected = [];
-    var smallSec = [];
+    section = section.sort((a,b) => a.numVal[1] - b.numVal[1]); // sort section by second letter
+    // var wordList = [];
+    // section.forEach(entry => {
+    //   wordList.push(entry.numVal); // get only the arrays of numerical values
+    //   console.log(wordList);
+    // });
+    // var longest = wordList.reduce((a, b) => a.length > b.length ? a : b); // find the longest word
+    // var collected = [];
+    // var smallSec = [];
 
-    for (var x = 1; x < longest.length; x++){ // repeat until there's no letters left
-      smallSec = []; // empties the tracker
-      for (var j = 0; j < 35; j++){
-        section.forEach(entry => { 
-          if (entry.numVal[x] == j){
-            smallSec.push(entry); // get a list of only words that have the same next letter (x)
-          }
-        });
-        smallSec = smallSec.sort((a,b) => a.numVal[x+1] - b.numVal[x+1]); // sort by same letter after (x+1)
-      }
-      smallSec.forEach(entry => { // appends the words to the beginning
-        collected.push(entry);
-      });
-    }
-    section = collected;
+    // for (var x = 1; x < longest.length; x++){ // repeat until there's no letters left
+    //   smallSec = []; // empties the tracker
+    //   for (var j = 0; j < 35; j++){
+    //     section.forEach(entry => { 
+    //       if (entry.numVal[x] == j){
+    //         smallSec.push(entry); // get a list of only words that have the same next letter (x)
+    //       }
+    //     });
+    //     smallSec = smallSec.sort((a,b) => a.numVal[x+1] - b.numVal[x+1]); // sort by same letter after (x+1)
+    //   }
+    //   smallSec.forEach(entry => { // appends the words to the beginning
+    //     collected.push(entry);
+    //   });
+    // }
+    // section = collected;
 
     // making arrays to use in the function that makes the tables
-    wordList = [];
+    var wordList = [];
     var keyList = [];
     var descList = [];
     section.forEach(entry => {
@@ -52,12 +49,7 @@ fetch("../words.json")
       descList.push(entry.desc);
     });
     
-    makeTable(wordList, keyList, descList, table);
-
-    // section.forEach(entry => {
-    //   table.innerHTML += "<td class='entry'>"+entry.entry+"</td>";
-    // });
-    
+    makeTable(wordList, keyList, descList, table);    
   }
 });
 
