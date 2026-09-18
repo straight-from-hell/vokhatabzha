@@ -44,6 +44,7 @@ fetch("../words.json")
       }
 
       base = storage;
+      console.log(base);
     }
 
 
@@ -62,7 +63,6 @@ fetch("../words.json")
 });
 
 function makeTable(arrE, arrK, arrD, place){
-  console.log(arrE); // problem happens before here
   
   var lineEntry = 0;
   var lineInfo = 0;
