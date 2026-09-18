@@ -29,7 +29,7 @@ fetch("../words.json")
     var group = [];
     var storage = [];
 
-    for (var j = 2; j <= longest; j++){
+    for (var j = 2; j <= longest; j++){ // something here is the issue but I don't have it in me rn
       for (var k = 0; k < 35; k++){ // for each numVal index, each letter has to be checked for duplicates
         base.forEach(entry => { 
           if (entry.numVal[j] == k){
@@ -62,7 +62,7 @@ fetch("../words.json")
 });
 
 function makeTable(arrE, arrK, arrD, place){
-  console.log(arrE);
+  console.log(arrE); // problem happens before here
   
   var lineEntry = 0;
   var lineInfo = 0;
