@@ -62,6 +62,8 @@ fetch("../words.json")
 });
 
 function makeTable(arrE, arrK, arrD, place){
+  console.log(arrE);
+  
   var lineEntry = 0;
   var lineInfo = 0;
   var text = "<table>";
