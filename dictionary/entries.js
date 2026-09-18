@@ -19,7 +19,7 @@ fetch("../words.json")
     var wordList = [];
     section.forEach(entry => {
       wordList.push(entry.numVal); // get only the arrays of numerical values
-      console.log("got here");
+      console.log(wordList);
     });
     var longest = wordList.reduce((a, b) => a.length > b.length ? a : b); // find the longest word
     var collected = [];
