@@ -45,6 +45,7 @@ fetch("../words.json")
 
       base = storage;
       console.log(base);
+      storage = [];
     }
 
 
