@@ -46,7 +46,7 @@ fetch("../words.json")
       }
 
       base = storage; // update base to check next letter
-      storage = []; // empty storage for next iteration
+      // storage = []; // empty storage for next iteration
     }
 
 
