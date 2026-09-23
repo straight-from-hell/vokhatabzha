@@ -33,19 +33,20 @@ fetch("../words.json")
       for (var k = 0; k < 35; k++){ // for each numVal index, each letter has to be checked for duplicates
         base.forEach(entry => { 
           if (entry.numVal[j] == k){
-            group.push(entry);
+            group.push(entry); // get all duplicates in iteration
           }
         });
 
-        group.forEach(word => { // add the group to storage
-          storage.push(word);
+        group.sort((a,b) => a.numVal[j+1] - b.numVal[j+1]); // sort by next letter
+        group.forEach(entry => {
+          storage.push(entry);
         });
-        group = []; // empty the group to reuse next iteration
+
+        group = []; // empty group for next iteration
       }
 
-      base = storage;
-      console.log(base);
-      storage = [];
+      base = storage; // update base to check next letter
+      storage = []; // empty storage for next iteration
     }
 
 
