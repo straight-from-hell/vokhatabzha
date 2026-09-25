@@ -71,7 +71,7 @@ function makeTable(arrE, arrK, arrD, place){
         break;
       }
       url.searchParams.set('word', arrE[i+lineEntry]);
-      text += `<td href="${url}">${arrE[i+lineEntry]}</td>`;
+      text += `<td><a href="${url}">${arrE[i+lineEntry]}</a></td>`;
     }
     lineEntry+= 3;
     
