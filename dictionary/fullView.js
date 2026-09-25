@@ -10,7 +10,8 @@ var desc = document.getElementById("desc");
 fetch("../words.json")
 .then(data => data.json())
 .then(json => {
-  json.forEach(word => {
+  var sorted = json.words.sort((a,b) =>  a.numVal[0] - b.numVal[0]);
+  sorted.forEach(word => {
     if (word.entry == entry){
       type.innerHTML = word.speechPart.term;
       desc.innerHTML = word.desc;
