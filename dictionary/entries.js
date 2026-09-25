@@ -62,6 +62,7 @@ function makeTable(arrE, arrK, arrD, place){
   var lineEntry = 0;
   var lineInfo = 0;
   var text = "<table>";
+  var url = new URL("https://straight-from-hell.github.io/vokhatabzha/dictionary/entry.html");
 
   while (lineInfo < arrE.length){
     text += "<tr class='entry'>";
@@ -69,7 +70,8 @@ function makeTable(arrE, arrK, arrD, place){
       if (arrE[i+lineEntry] === undefined){
         break;
       }
-      text += `<td><a href="entry.html?word=${arrE[i+lineEntry]}">${arrE[i+lineEntry]}</a></td>`;
+      url.searchParams.set('word', arrE[i+lineEntry]);
+      text += `<td><a href="${url}">${arrE[i+lineEntry]}</a></td>`;
     }
     lineEntry+= 3;
     
