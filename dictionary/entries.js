@@ -69,7 +69,7 @@ function makeTable(arrE, arrK, arrD, place){
       if (arrE[i+lineEntry] === undefined){
         break;
       }
-      text += "<td>"+arrE[i+lineEntry]+"</td>";
+      text += `<td><a href="entry.html?word=${arrE[i+lineEntry]}">${arrE[i+lineEntry]}</a></td>`;
     }
     lineEntry+= 3;
     
@@ -78,7 +78,7 @@ function makeTable(arrE, arrK, arrD, place){
       if (arrE[i+lineInfo] === undefined){
         break;
       }
-      text += "<td>"+arrK[i+lineInfo]+". "+arrD[i+lineInfo]+"</td>";
+      text += `<td>${arrK[i+lineInfo]}. ${arrD[i+lineInfo]}</td>`;
     }
     lineInfo+= 3;
     
