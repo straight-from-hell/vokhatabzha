@@ -75,6 +75,14 @@ a:hover{
   color: azure;
 }
 
+.entry a{
+  color: azure;
+  text-decoration: none;
+}
+.entry a:hover{
+  text-decoration: underline;
+}
+
 /* responsive code goes here vvv */
 @media only screen and (max-width: 850px/*may need to change number*/) {
   main{
