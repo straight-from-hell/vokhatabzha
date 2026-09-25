@@ -18,36 +18,29 @@ fetch("../words.json")
         longest = entry.numVal.length;
       }
     });
-
-    // section = section.sort((a,b) => a.numVal[1] - b.numVal[1]); // sort section by second letter
-
-    // loop to sort each section alphabetically
-    // step 1: sort the larget unsorted section
-    // step 2: collect all the words that have a matching letter in the same spot
     var base = section;
     base = base.sort((a,b) => a.numVal[1] - b.numVal[1]);
-    var group = [];
-    var storage = [];
+    // var group = [];
+    // var storage = [];
 
-    for (var j = 2; j <= longest; j++){ // something here is the issue but I don't have it in me rn
-      for (var k = 0; k < 35; k++){ // for each numVal index, each letter has to be checked for duplicates
-        base.forEach(entry => { 
-          if (entry.numVal[j] == k){
-            group.push(entry); // get all duplicates in iteration
-          }
-        });
+    // for (var j = 2; j <= longest; j++){ // something here is the issue but I don't have it in me rn
+    //   for (var k = 0; k < 35; k++){ // for each numVal index, each letter has to be checked for duplicates
+    //     base.forEach(entry => { 
+    //       if (entry.numVal[j] == k){
+    //         group.push(entry); // get all duplicates in iteration
+    //       }
+    //     });
 
-        group.sort((a,b) => a.numVal[j+1] - b.numVal[j+1]); // sort by next letter
-        group.forEach(entry => {
-          storage.push(entry);
-        });
+    //     group.sort((a,b) => a.numVal[j+1] - b.numVal[j+1]); // sort by next letter
+    //     group.forEach(entry => {
+    //       storage.push(entry);
+    //     });
 
-        group = []; // empty group for next iteration
-      }
+    //     group = []; // empty group for next iteration
+    //   }
 
-      base = storage; // update base to check next letter
-      // storage = []; // empty storage for next iteration
-    }
+    //   base = storage; // update base to check next letter
+    // }
 
 
     // making arrays to use in the function that makes the tables
