@@ -4,6 +4,8 @@ var entry = params.get("word");
 var heading = document.getElementById("entry");
 heading.innerHTML = entry;
 
+document.title = `${entry} - Vòkhá'ábzhá`;
+
 var type = document.getElementById("speechPart");
 var desc = document.getElementById("desc");
 
