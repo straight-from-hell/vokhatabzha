@@ -90,6 +90,36 @@
       "numVal": [1, 17, 0],
       "speechPart": {"term": "postposition", "key": "pos"},
       "desc": "before, under"
+    },
+    { 
+      "entry": "ánvò'án",
+      "numVal": [0, 17, 30, 21, 26, 0, 17],
+      "speechPart": {"term": "noun", "key": "n"},
+      "desc": "storyteller"
+    },
+    { 
+      "entry": "ánzàun",
+      "numVal": [0, 17, 32, 2, 28, 17],
+      "speechPart": {"term": "noun", "key": "n"},
+      "desc": "person"
+    },
+    { 
+      "entry": "ánzàunni",
+      "numVal": [0, 17, 32, 2, 28, 17, 17, 12],
+      "speechPart": {"term": "noun", "key": "n"},
+      "desc": "child"
+    },
+    { 
+      "entry": "ánzàuntu",
+      "numVal": [0, 17, 32, 2, 28, 17, 26, 28],
+      "speechPart": {"term": "noun", "key": "n"},
+      "desc": "healer"
+    },
+    { 
+      "entry": "á.uè",
+      "numVal": [0, 26, 7],
+      "speechPart": {"term": "demonstrative", "key": "dem"},
+      "desc": "these"
     }
   ]
 }
