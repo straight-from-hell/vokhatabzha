@@ -83,6 +83,10 @@ a:hover{
   text-decoration: underline;
 }
 
+#example{
+  font-style: italic;
+}
+
 /* responsive code goes here vvv */
 @media only screen and (max-width: 850px/*may need to change number*/) {
   main{
