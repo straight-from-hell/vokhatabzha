@@ -4,25 +4,29 @@
       "entry": "áako",
       "numVal": [0, 1, 14, 20],
       "speechPart": {"term": "pronoun", "key": "pro"},
-      "desc": "she, her"
+      "desc": "she, her",
+      "example": {"en": "", "vb": ""}
     },
     {      
       "entry": "mbègá",
       "numVal": [3, 7, 9, 0],
       "speechPart": {"term": "conjunction", "key": "con"},
-      "desc": "and, also, as well"
+      "desc": "and, also, as well",
+      "example": {"en": "", "vb": ""}
     },
     {
       "entry": "efé",
       "numVal": [6, 8, 5],
       "speechPart": {"term": "verb", "key": "v"},
-      "desc": "to eat"
+      "desc": "to eat",
+      "example": {"en": "", "vb": ""}
     },
     { 
       "entry": "è",
       "numVal": [7],
       "speechPart": {"term": "conjuntion", "key": "con"},
-      "desc": "than"
+      "desc": "than",
+      "example": {"en": "", "vb": ""}
     },
     { 
       "entry": "ánzàungko",
@@ -30,37 +34,43 @@
       "speechPart": {"term": "noun", "key": "n"},
       "desc": "woman",
       "regular": false,
-      "mod": []
+      "mod": [],
+      "example": {"en": "", "vb": ""}
     },
     {
       "entry": "a'á",
       "numVal": [1, 26, 0],
       "speechPart": {"term": "adjective", "key": "adj"},
-      "desc": "loud"
+      "desc": "loud",
+      "example": {"en": "", "vb": ""}
     },
     { 
       "entry": "foiè",
       "numVal": [8, 20, 12, 7],
       "speechPart": {"term": "postposition", "key": "pos"},
-      "desc": "after, above"
+      "desc": "after, above",
+      "example": {"en": "", "vb": ""}
     },
     { 
       "entry": "ffshó",
       "numVal": [8, 8, 25, 19],
       "speechPart": {"term": "verb", "key": "v"},
-      "desc": "to remove"
+      "desc": "to remove",
+      "example": {"en": "", "vb": ""}
     },
     {      
       "entry": "ái",
       "numVal": [0, 12],
       "speechPart": {"term": "demonstrative", "key": "dem"},
-      "desc": "this"
+      "desc": "this",
+      "example": {"en": "", "vb": ""}
     },
     {
       "entry": "ánvò",
       "numVal": [0, 17, 30, 21],
       "speechPart": {"term": "verb", "key": "v"},
-      "desc": "to say"
+      "desc": "to say",
+      "example": {"en": "", "vb": ""}
     },
     { 
       "entry": "bvíiofèngkstə",
@@ -69,7 +79,8 @@
       "desc": "armour",
       "regular": true,
       "mod": ["bvíiofèngkstəgò","bvíiofèngkstə","bvíiofèngkstè","-","bvíiofèngkstədí","bvíiofèngkstə.iíi","-",
-        "bvíiofèngkstə'án","bvíiofèngkstəpshóo","bvíiofèngkstədáung","bvíiofèngkstə'ə"]
+        "bvíiofèngkstə'án","bvíiofèngkstəpshóo","bvíiofèngkstədáung","bvíiofèngkstə'ə"],
+      "example": {"en": "", "vb": ""}
     },
     { 
       "entry": "ánzàunne",
@@ -77,49 +88,57 @@
       "speechPart": {"term": "noun", "key": "n"},
       "desc": "man",
       "regular": false,
-      "mod": []
+      "mod": [],
+      "example": {"en": "", "vb": ""}
     },
     {
       "entry": "íini",
       "numVal": [11, 12, 17, 12],
       "speechPart": {"term": "adjective", "key": "adj"},
-      "desc": "small, miniscule"
+      "desc": "small, miniscule",
+      "example": {"en": "", "vb": ""}
     },
     { 
       "entry": "aná",
       "numVal": [1, 17, 0],
       "speechPart": {"term": "postposition", "key": "pos"},
-      "desc": "before, under"
+      "desc": "before, under",
+      "example": {"en": "", "vb": ""}
     },
     { 
       "entry": "ánvò'án",
       "numVal": [0, 17, 30, 21, 26, 0, 17],
       "speechPart": {"term": "noun", "key": "n"},
-      "desc": "storyteller"
+      "desc": "storyteller",
+      "example": {"en": "", "vb": ""}
     },
     { 
       "entry": "ánzàun",
       "numVal": [0, 17, 32, 2, 28, 17],
       "speechPart": {"term": "noun", "key": "n"},
-      "desc": "person"
+      "desc": "person",
+      "example": {"en": "", "vb": ""}
     },
     { 
       "entry": "ánzàunni",
       "numVal": [0, 17, 32, 2, 28, 17, 17, 12],
       "speechPart": {"term": "noun", "key": "n"},
-      "desc": "child"
+      "desc": "child",
+      "example": {"en": "", "vb": ""}
     },
     { 
       "entry": "ánzàuntu",
       "numVal": [0, 17, 32, 2, 28, 17, 26, 28],
       "speechPart": {"term": "noun", "key": "n"},
-      "desc": "healer"
+      "desc": "healer",
+      "example": {"en": "", "vb": ""}
     },
     { 
       "entry": "á.uè",
       "numVal": [0, 26, 7],
       "speechPart": {"term": "demonstrative", "key": "dem"},
-      "desc": "these"
+      "desc": "these",
+      "example": {"en": "", "vb": ""}
     }
   ]
 }
