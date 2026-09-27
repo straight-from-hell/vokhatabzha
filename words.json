@@ -5,7 +5,7 @@
       "numVal": [0, 1, 14, 20],
       "speechPart": {"term": "pronoun", "key": "pro"},
       "desc": "she, her",
-      "example": {"en": "", "vb": ""}
+      "example": {"en": "She is a woman", "vb": "<b>áako</b> i ánzàungko."}
     },
     {      
       "entry": "mbègá",
@@ -35,7 +35,7 @@
       "desc": "woman",
       "regular": false,
       "mod": [],
-      "example": {"en": "", "vb": ""}
+      "example": {"en": "She is a woman", "vb": "áako i <b>ánzàungko</b>."}
     },
     {
       "entry": "a'á",
@@ -131,7 +131,7 @@
       "numVal": [0, 17, 32, 2, 28, 17, 26, 28],
       "speechPart": {"term": "noun", "key": "n"},
       "desc": "healer",
-      "example": {"en": "", "vb": ""}
+      "example": {"en": "They are a healer", "vb": "tu.án i <b>ánzàuntu</b>."}
     },
     { 
       "entry": "á.uè",
