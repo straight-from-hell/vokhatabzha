@@ -80,7 +80,7 @@
       "regular": true,
       "mod": ["bvíiofèngkstəgò","bvíiofèngkstə","bvíiofèngkstè","-","bvíiofèngkstədí","bvíiofèngkstə.iíi","-",
         "bvíiofèngkstə'án","bvíiofèngkstəpshóo","bvíiofèngkstədáung","bvíiofèngkstə'ə"],
-      "example": {"en": "", "vb": ""}
+      "example": {"en": "They're wearing their armour.", "vb": "ffshóshuò <b>bvíiofèngkstə</b>shuí."}
     },
     { 
       "entry": "ánzàunne",
@@ -89,7 +89,7 @@
       "desc": "man",
       "regular": false,
       "mod": [],
-      "example": {"en": "", "vb": ""}
+      "example": {"en": "He is a man.", "vb": "dome i <b>ánzàunne</b>."}
     },
     {
       "entry": "íini",
