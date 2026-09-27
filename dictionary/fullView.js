@@ -8,6 +8,7 @@ document.title = `${entry} - Vòkhá'ábzhá`;
 
 var type = document.getElementById("speechPart");
 var desc = document.getElementById("desc");
+var example = document.getElementById("example");
 
 fetch("../words.json")
 .then(data => data.json())
@@ -17,6 +18,7 @@ fetch("../words.json")
     if (word.entry == entry){
       type.innerHTML = word.speechPart.term;
       desc.innerHTML = word.desc;
+      example.innerHTML = word.example.en+" - "+word.example.vb;
     }
   });
 });
