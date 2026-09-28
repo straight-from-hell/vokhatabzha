@@ -16,11 +16,14 @@ fetch("../words.json")
   var sorted = json.words.sort((a,b) =>  a.numVal[0] - b.numVal[0]);
   sorted.forEach(word => {
     if (word.entry == entry){
-      type.innerHTML = word.speechPart.term;
-      var test = document.getElementById("test");
-      console.log(test);
+      type.innerHTML = word.speechPart.term;      
       desc.innerHTML = word.desc;
       example.innerHTML = word.example.en+" - "+word.example.vb;
+
+      var grammar = document.getElementById(word.speechPart.term);
+      if (grammar != null){
+        grammar.style.display = "block";
+      }
     }
   });
 });
