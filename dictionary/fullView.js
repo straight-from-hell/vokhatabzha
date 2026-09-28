@@ -17,6 +17,8 @@ fetch("../words.json")
   sorted.forEach(word => {
     if (word.entry == entry){
       type.innerHTML = word.speechPart.term;
+      var test = document.getElementById("test");
+      console.log(test);
       desc.innerHTML = word.desc;
       example.innerHTML = word.example.en+" - "+word.example.vb;
     }
