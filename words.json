@@ -5,7 +5,7 @@
       "numVal": [0, 1, 14, 20],
       "speechPart": {"term": "pronoun", "key": "pro"},
       "desc": "she, her",
-      "example": {"en": "She is a woman", "vb": "<b>áako</b> i ánzàungko."}
+      "example": {"en": "She is a woman.", "vb": "<b>áako</b> i ánzàungko."}
     },
     {      
       "entry": "mbègá",
@@ -19,7 +19,7 @@
       "numVal": [6, 8, 5],
       "speechPart": {"term": "verb", "key": "v"},
       "desc": "to eat",
-      "example": {"en": "", "vb": ""}
+      "example": {"en": "The dog eats flowers.", "vb": "<b>efé</b>nggrúo foná’á."}
     },
     { 
       "entry": "è",
@@ -35,7 +35,7 @@
       "desc": "woman",
       "regular": false,
       "mod": [],
-      "example": {"en": "She is a woman", "vb": "áako i <b>ánzàungko</b>."}
+      "example": {"en": "She is a woman.", "vb": "áako i <b>ánzàungko</b>."}
     },
     {
       "entry": "a'á",
@@ -96,7 +96,7 @@
       "numVal": [11, 12, 17, 12],
       "speechPart": {"term": "adjective", "key": "adj"},
       "desc": "small, miniscule",
-      "example": {"en": "", "vb": ""}
+      "example": {"en": "The small dog eats flowers.", "vb": "efénggrúo <b>íini</b> foná’á."}
     },
     { 
       "entry": "aná",
@@ -110,28 +110,28 @@
       "numVal": [0, 17, 30, 21, 26, 0, 17],
       "speechPart": {"term": "noun", "key": "n"},
       "desc": "storyteller",
-      "example": {"en": "", "vb": ""}
+      "example": {"en": "I will hear the storyteller.", "vb": "shóske etshúemì (tshe) <b>ánvò'án</b>."}
     },
     { 
       "entry": "ánzàun",
       "numVal": [0, 17, 32, 2, 28, 17],
       "speechPart": {"term": "noun", "key": "n"},
       "desc": "person",
-      "example": {"en": "", "vb": ""}
+      "example": {"en": "They are a person.", "vb": "shuò i <b>ánzàun</b>."}
     },
     { 
       "entry": "ánzàunni",
       "numVal": [0, 17, 32, 2, 28, 17, 17, 12],
       "speechPart": {"term": "noun", "key": "n"},
       "desc": "child",
-      "example": {"en": "", "vb": ""}
+      "example": {"en": "They are a child.", "vb": "shuò i <b>ánzàunni</b>."}
     },
     { 
       "entry": "ánzàuntu",
       "numVal": [0, 17, 32, 2, 28, 17, 26, 28],
       "speechPart": {"term": "noun", "key": "n"},
       "desc": "healer",
-      "example": {"en": "They are a healer", "vb": "tu.án i <b>ánzàuntu</b>."}
+      "example": {"en": "They are a healer.", "vb": "tu.án i <b>ánzàuntu</b>."}
     },
     { 
       "entry": "á.uè",
