@@ -153,6 +153,62 @@
       "speechPart": {"term": "verb", "key": "v"},
       "desc": "to hear",
       "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "bè, bègá",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "postposition", "key": "pos"},
+      "desc": "at, around, near or surrounding, beside",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "bèro",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "postposition", "key": "pos"},
+      "desc": "to, towards",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "bvíiofèn",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "noun", "key": "n"},
+      "desc": "clothing, garment",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "bvíiofènán",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "noun", "key": "n"},
+      "desc": "sewest, seamstress, clothing maker",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "bvíiofèmpshóo",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "noun", "key": "n"},
+      "desc": "fabric, cloth",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "bvíiofèntu",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "noun", "key": "n"},
+      "desc": "healer's robes, medical uniform",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "bzhá",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "pronoun", "key": "pro"},
+      "desc": "we, we all",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "bzhì",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "pronoun", "key": "pro"},
+      "desc": "our, all our",
+      "example": {"en": "", "vb": ""}
     }
   ]
 }
