@@ -23,6 +23,7 @@ header{
   min-height: 200px;
   background: linear-gradient(to bottom, midnightblue 60%, transparent 60%);
   padding-top: 10px;
+  z-index: 1;
 }
 header *{
   background: midnightblue;
