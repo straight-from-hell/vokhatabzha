@@ -46,13 +46,14 @@ main{
 }
 
 button{
-  background: midnightblue;
+  background: none;
   border: none;
   color: azure;
   font-family: "EB Garamond", serif;
   font-size: 1.5em;
   /* display: inline; */
   transition: all 0.2s;
+  z-index: -1;
 }
 
 td{
