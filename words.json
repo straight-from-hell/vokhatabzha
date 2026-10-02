@@ -139,6 +139,20 @@
       "speechPart": {"term": "demonstrative", "key": "dem"},
       "desc": "these",
       "example": {"en": "", "vb": ""}
+    },
+    { 
+      "entry": "adá",
+      "numVal": [1, 4, 0],
+      "speechPart": {"term": "demonstrative", "key": "dem"},
+      "desc": "these two",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "etshúe",
+      "numVal": [6, 26, 25, 27, 6],
+      "speechPart": {"term": "verb", "key": "v"},
+      "desc": "to hear",
+      "example": {"en": "", "vb": ""}
     }
   ]
 }
