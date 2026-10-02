@@ -209,6 +209,55 @@
       "speechPart": {"term": "pronoun", "key": "pro"},
       "desc": "our, all our",
       "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "foná",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "noun", "key": "n"},
+      "desc": "flower",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "fənga",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "verb", "key": "v"},
+      "desc": "to bend",
+      "example": {"en": "", "vb": ""}
+    },
+    { 
+      "entry": "ímpo",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "demonstrative", "key": "dem"},
+      "desc": "these two indirect objects",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "lussapshóo",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "noun", "key": "n"},
+      "desc": "dirt, soil, earth",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "lussa",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "noun", "key": "n"},
+      "desc": "ground, floor, bottom surface, earth",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "ngəm",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "adjective", "key": "adj"},
+      "desc": "sour tasting",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "nguomá",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "adjective", "key": "adj"},
+      "desc": "soft",
+      "example": {"en": "", "vb": ""}
     }
   ]
 }
