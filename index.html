@@ -26,7 +26,7 @@
         <a href="numbers/overview.html">Numbers & Math</a>
         <a href="#">Cultural Terms & Phrases</a>
         <hr>
-        <h2>Timeline<button onclick="show('history')">^</button></h2>
+        <h2>Timeline<button id="historyBtn" onclick="show('history')">^</button></h2>
         <div id="history" style="display: none;">
             <hr>
             <h3>Old Vòkhá'ábzhá</h3>
@@ -42,7 +42,7 @@
             <h3>Fəked.zheb</h3>
             <p>In the West Vòkhá'ábzhá got to evolve on its own into the modern Fəked.zheb.</p>
         </div>
-        <h2>Additional Worldbuilding Information<button onclick="show('worldbuilding')">^</button></h2>
+        <h2>Additional Worldbuilding Information<button id="worldbuildingBtn" onclick="show('worldbuilding')">^</button></h2>
         <div id="worldbuilding" style="display: none;">
             <hr>
             <p>Vòkhá'ábzhá is a primarily isolated language spoken on an island in the Atlantic; somewhere between Greenland, Ireland, 
@@ -51,5 +51,19 @@
             </p>
         </div>
     </main>
+
+    <script>
+        function show(section){
+            var part = document.getElementById(section);
+            if (part.style.display == "block";){ 
+                part.style.display = "none";
+            }else{
+                part.style.display = "block";
+            }
+
+            var btn = document.getElementById(section+"Btn");
+            btn.style.rotate = "180deg";
+        }
+    </script>
 </body>
 </html>
