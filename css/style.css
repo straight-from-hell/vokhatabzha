@@ -50,7 +50,7 @@ button{
   border: none;
   color: azure;
   font-family: "EB Garamond", serif;
-  font-size: 3em;
+  /* font-size: 3em; */
   /* display: inline; */
   transition: all 0.2s;
 }
