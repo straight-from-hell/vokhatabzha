@@ -55,14 +55,14 @@
     <script>
         function show(section){
             var part = document.getElementById(section);
+            var btn = document.getElementById(section+"Btn");
             if (part.style.display == "block"){ 
                 part.style.display = "none";
+                btn.style.rotate = "360deg";
             }else{
                 part.style.display = "block";
+                btn.style.rotate = "180deg";
             }
-
-            var btn = document.getElementById(section+"Btn");
-            btn.style.rotate = "180deg";
         }
     </script>
 </body>
