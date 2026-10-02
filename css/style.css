@@ -51,7 +51,8 @@ button{
   color: azure;
   font-family: "EB Garamond", serif;
   font-size: 3em;
-  display: inline;
+  /* display: inline; */
+  transition: all 0.2s;
 }
 
 td{
