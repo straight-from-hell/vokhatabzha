@@ -45,6 +45,15 @@ main{
   height: 225px;
 }
 
+button{
+  background: none;
+  border: none;
+  color: azure;
+  font-family: "EB Garamond", serif;
+  font-size: 3em;
+  display: inline;
+}
+
 td{
   /* min-width: 5vw; */
   max-width: 20vw;
