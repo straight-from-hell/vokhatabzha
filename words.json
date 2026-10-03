@@ -258,6 +258,55 @@
       "speechPart": {"term": "adjective", "key": "adj"},
       "desc": "soft",
       "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "òmnom",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "noun", "key": "n"},
+      "desc": "food",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "òmnomma'u",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "noun", "key": "n"},
+      "desc": "vegetable",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "òmnompshóo",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "noun", "key": "n"},
+      "desc": "ingredient, food used to make a larger meal",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "ro'em",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "adjective", "key": "adj"},
+      "desc": "red",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "spuíi",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "adjective", "key": "adj"},
+      "desc": "wet, damp",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "ssúrə",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "interjection", "key": "int"},
+      "desc": "no",
+      "example": {"en": "", "vb": ""}
+    },
+    {
+      "entry": "sùu",
+      "numVal": [34, 34, 34],
+      "speechPart": {"term": "adjective", "key": "adj"},
+      "desc": "clear, translucent",
+      "example": {"en": "", "vb": ""}
     }
   ]
 }
